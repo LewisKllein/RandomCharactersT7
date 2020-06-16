@@ -1,0 +1,40 @@
+body{
+  margin:0;
+  padding:0;
+  background-image: url(pexels-photo-583846.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+p{
+  text-align: center;
+}
+
+h6{
+  text-align: center;
+}
+
+hr{
+  border: 1px solid red;
+}
+
+.jumbotron{
+  border: 2px red double;
+}
+
+.btn{
+  width:60%;
+  border-radius: 25px 25px 25px 25px;
+}
+#space{
+  height:80px;
+  width:100%;
+}
+
+@media (max-width: 600px) {
+
+  h6{
+    font-size: 12px;
+  }
+
+}
